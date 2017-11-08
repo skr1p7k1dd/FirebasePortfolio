@@ -11,8 +11,7 @@
     <title>Alex Doub's Portfolio</title>
 
     <!-- Bootstrap core CSS -->
-    <!-- TODO <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"> -->
-	<link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 	
 
     <!-- Custom fonts for this template -->
@@ -84,12 +83,22 @@
             </a>
           </div>
           <div class="col-sm-4 portfolio-item">
-            <a class="portfolio-link" href="#portfolioModal2TODO" data-toggle="modal">
+            <a class="portfolio-link" href="#portfolioModal1" data-toggle="modal">
+			<div class="caption">
+                <div class="caption-content">
+                  <i class="fa fa-search-plus fa-3x"></i>
+                </div>
+              </div>
               <img class="img-fluid" src="img/portfolio/cake.png" alt="">
             </a>
           </div>
           <div class="col-sm-4 portfolio-item">
-            <a class="portfolio-link" href="#portfolioModal3TODO" data-toggle="modal">
+            <a class="portfolio-link" href="#portfolioModal1" data-toggle="modal">
+			<div class="caption">
+                <div class="caption-content">
+                  <i class="fa fa-search-plus fa-3x"></i>
+                </div>
+              </div>
               <img class="img-fluid" src="img/portfolio/circus.png" alt="">
             </a>
           </div>
@@ -355,4 +364,17 @@
 
   </body>
 
+  <script src="https://www.gstatic.com/firebasejs/4.6.1/firebase.js"></script>
+  <script>
+    var config = {
+      apiKey: "AIzaSyB70uSodHz_6iJuIw26lL082txRCFSbhho",
+      authDomain: "alexs-portfolio.firebaseapp.com",
+      databaseURL: "https://alexs-portfolio.firebaseio.com",
+      projectId: "alexs-portfolio",
+      storageBucket: "alexs-portfolio.appspot.com",
+      messagingSenderId: "566934256805"
+	};
+	firebase.initializeApp(config);
+  </script>
+  
 </html>
