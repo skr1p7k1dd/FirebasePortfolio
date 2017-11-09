@@ -262,7 +262,7 @@ header.masthead {
       font-size: 3em;
       margin: 0; }
     .portfolio-modal .modal-dialog .modal-content img {
-      max-width: auto;
+      width: auto;
       max-height: 500px;
       margin-bottom: 30px; }
     .portfolio-modal .modal-dialog .modal-content .item-details {

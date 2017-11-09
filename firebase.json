@@ -12,6 +12,8 @@
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
+	  "**/scss/**"
+	  "**/img_RAW/**"
     ]
   },
   "storage": {
