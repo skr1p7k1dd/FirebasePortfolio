@@ -31,6 +31,7 @@ h6 {
   text-transform: uppercase;
 }
 
+hr.star-transparent,
 hr.star-light,
 hr.star-primary {
   max-width: 250px;
@@ -40,6 +41,7 @@ hr.star-primary {
   border: none;
   border-top: solid 5px;
 }
+hr.star-transparent:after,
 hr.star-light:after,
 hr.star-primary:after {
   font-family: FontAwesome;
@@ -65,6 +67,13 @@ hr.star-primary {
 hr.star-primary:after {
   color: $theme-primary;
   background-color: white;
+}
+hr.star-transparent {
+  border-color: transparent;
+}
+hr.star-transparent:after {
+  color: white;
+  
 }
 
 .img-centered {
