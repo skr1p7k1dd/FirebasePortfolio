@@ -11,8 +11,8 @@
     "ignore": [
       "firebase.json",
       "**/.*",
-      "**/node_modules/**"
-	  "**/scss/**"
+      "**/node_modules/**",
+	  "**/scss/**",
 	  "**/img_RAW/**"
     ]
   },
