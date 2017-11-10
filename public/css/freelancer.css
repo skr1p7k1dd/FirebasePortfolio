@@ -271,6 +271,7 @@ header.masthead {
 .portfolio-modal .close-modal {
   position: absolute;
   top: 25px;
+  z-index: 1050;
   right: 25px;
   width: 75px;
   height: 75px;
